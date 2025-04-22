@@ -1,4 +1,15 @@
 
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffef9;
+  color: #333;
+}
+
+h1, h2 {
+  margin: 0 0 20px 0;
+}
+
 .hero {
   height: 100vh;
   background-image: url('imagenes/portada.jpg');
@@ -23,12 +34,22 @@
 .contenido-hero h1 {
   font-size: 3em;
   margin-bottom: 0.2em;
-  font-family: 'Poppins', sans-serif;
   letter-spacing: 2px;
 }
 
 .contenido-hero p {
   font-size: 1.4em;
   font-style: italic;
-  font-family: 'Poppins', sans-serif;
+}
+
+.seccion {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a {
+  color: #3a6b7c;
+  text-decoration: none;
 }
