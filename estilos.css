@@ -1,4 +1,9 @@
-
+@font-face {
+  font-family: 'LaStoria';
+  src: url('../fuentes/LaStoriademo.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
